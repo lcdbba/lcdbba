@@ -78,6 +78,9 @@
   <ItemGroup>
     <ClCompile Include="push_pull_test.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="person.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
