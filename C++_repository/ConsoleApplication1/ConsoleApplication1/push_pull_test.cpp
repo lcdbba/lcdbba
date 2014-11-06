@@ -1,13 +1,30 @@
-#include<iostream>
-#include<string>
+#include"person.h"
 
-using namespace std;
+void person::setInfo(int age, string name){
+
+	this->age = age;
+	this->name = name;
+
+}
+int person::getAge(){
+	
+	return this->age;
+}
+
+string person::getName(){
+
+	return this->name;
+
+}
+
 
 int main(){
 
-	string a = "hello world";
+	person p1(26,"jackson");
 
-	cout << a<<endl;
+	cout<<p1.getName();
+	
 
 	return 0;
+
 }

@@ -12,6 +12,7 @@ private:
 	int age;
 	string name;
 public:
+	
 	person() :age(0), name(""){};
 	person(int age, string name) :age(age), name(name){};
 
